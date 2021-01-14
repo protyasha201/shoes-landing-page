@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 300px;
+}
+
+.section{
+    background-color: antiquewhite;
+    padding-top: 2%;
+    height: 850px;
+}
+
+.nav-options{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40%;
+}
+
+.nav-options a{
+    margin-left: 15px;
+}
+
+.intro-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.intro-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.intro-items img{
+    width: 80%;
+}
+
+.intro-items h1{
+    font-size: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.intro{
+    text-align: justify;
+    width: 96%;
+}
+
+.intro p{
+    font-size: 18px;
+}
+.orange-text{
+    color: rgb(255, 166, 0);
+}
+
+.blue-text{
+    color: rgb(29, 29, 65);
+}
+.cart-logo{
+    color: white;
+}
+
+.button{
+    background-color: rgb(80, 144, 228);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover a{
+    color: black;
+}
+
+@media (max-width:600px){
+    .intro-section{
+        flex-direction: column-reverse;
+        margin-top: 10%;
+    }
+    .intro-image{
+        width: 100%;
+    }
+}
+
