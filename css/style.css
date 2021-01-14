@@ -130,7 +130,58 @@ p{
     font-size: 40px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-@media (max-width: 768px){
+
+.last-part{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.footer-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container img{
+    width: 100%;
+}
+
+.footer-items{
+    margin:2%;
+    display: flex;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.footer-items h5{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.images{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.images img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
     .intro-section{
         flex-direction: column-reverse;
         margin-top: 10%;
@@ -149,11 +200,50 @@ p{
     .main-section h2{
         text-align: center;
     }
+
+    .last-part{
+        flex-direction: column-reverse;
+    }
+
+    .footer-container{
+        width: 100%;
+        margin: 10% 0;
+    }
+
+    .footer-items{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images{
+        width: 30%;
+    }
 }
 
-@media (min-width:769px) and (max-width:992px){
+@media (min-width:768px) and (max-width:992px){
     .shoe-items{
         width: 45%;
         display: flex;
+    }
+
+    .button{
+        width: 150px;
+    }
+
+    .last-part{
+        flex-direction: column-reverse;
+    }
+
+    .footer-container{
+        width: 100%;
+        margin: 5% 0;
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+    .button{
+        width: 130px;
     }
 }
