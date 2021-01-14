@@ -181,6 +181,112 @@ p{
     width: 100%;
 }
 
+.footer{
+    background-image: linear-gradient(160deg, rgb(96, 96, 248), rgb(97, 233, 97));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.join-text{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputs h6{
+    font-size: 20px;
+    color: rgb(37, 36, 33);
+}
+
+.copyright{
+    background-image: linear-gradient(160deg, rgb(93, 214, 144),rgb(183, 236, 139));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
+}
+input{
+    text-align: center;
+    background-color: rgb(210, 255, 196);
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+input:hover{
+    background-color: rgb(182, 182, 182);
+    color: rgb(24, 22, 22);
+}
+
+input:focus{
+    background-color: rgb(214, 250, 130);
+    color: black;
+    font-size: 20px;
+}
+
+
+.form-holder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.join-form{
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.join-button{
+    width: 150px;
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(170deg,rgb(7, 114, 114),rgb(165, 152, 211));
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.join-button:hover{
+    background-image: linear-gradient(170deg, rgb(217, 224, 118), rgb(176, 202, 194));
+}
+
+.contact-items{
+    margin-top: 10%;
+}
+
+.contact-items h5{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.icons{
+    width: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.icons a{
+    text-decoration: none;
+}
+.icons:hover{
+    color: black;
+}
+
 @media only screen and (max-width: 768px){
     .intro-section{
         flex-direction: column-reverse;
