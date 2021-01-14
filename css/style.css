@@ -16,7 +16,8 @@
 .nav-options{
     font-size: 20px;
     font-weight: 600;
-    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-options a{
